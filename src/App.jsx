@@ -1,14 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import LandingPage from './components/LandingPage';
+
+import LandingPage from './components/LandingPage'; // ✅ Default import, no {}
 import Navbar from './components/Navbar';
 import DirectionPage from './Views/DirectionPage';
 import PhotographyPage from './Views/PhotographyPage';
 import PhotoProjectsPage from './Views/PhotoProjectsPage';
 import ContactPage from './Views/ContactPage';
-import AlbumView from './Views/AlbumView'; // ✅ Correct path if file lives in /Views/
+import AlbumView from './Views/AlbumView'; // ✅ Dynamic album view
 
-import './App.css'; // where .main-content lives
+import './App.css'; // Your styles (for .main-content etc.)
 
 const Layout = () => {
   const location = useLocation();
@@ -22,7 +23,7 @@ const Layout = () => {
           <Route path="/" element={<LandingPage />} />
           <Route path="/direction" element={<DirectionPage />} />
           <Route path="/photography" element={<PhotographyPage />} />
-          <Route path="/photo-projects/:albumId" element={<AlbumView />} /> {/* ✅ Dynamic album route */}
+          <Route path="/photo-projects/:albumId" element={<AlbumView />} />
           <Route path="/photo-projects" element={<PhotoProjectsPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>

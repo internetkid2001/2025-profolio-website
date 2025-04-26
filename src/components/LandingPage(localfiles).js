@@ -24,6 +24,7 @@ export default function LandingPage() {
     audioRef.current.loop = true;
     audioRef.current.volume = 0.75;
 
+    // Cleanup when component unmounts
     return () => {
       if (audioRef.current) {
         audioRef.current.pause();
@@ -53,11 +54,10 @@ export default function LandingPage() {
     <div className={`landing-container ${isTransitioning ? "fade-out" : ""}`}>
       <video
         className="video-background"
-        src="https://victor-videos.b-cdn.net/WEBSITE%20FRONT%20PAGE.mov"
+        src="/videos/WEBSITE FRONT PAGE.mp4"
         autoPlay
         muted
         loop
-        playsInline
       />
 
       <a href="https://www.vist4.net/" className="logo-top-left">

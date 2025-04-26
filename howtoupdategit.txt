@@ -4,5 +4,5 @@ git push
 
 
 git add .
-git commit -m "fixed photogrpahy page title"
+git commit -m "using bunny.net to host video files"
 git push

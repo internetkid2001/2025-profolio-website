@@ -44,7 +44,7 @@ const PhotographyPage = () => {
 
   return (
     <div className="photography-container">
-      <h1 className="photography-title">Current Photography</h1>
+      <h1 className="photography-title">Photography</h1>
       <div className="photo-grid">
         {imagePaths.map((fileName, index) => (
           <img

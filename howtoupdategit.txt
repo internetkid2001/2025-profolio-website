@@ -4,5 +4,5 @@ git push
 
 
 git add .
-git commit -m ""
+git commit -m "fixed photogrpahy page title"
 git push

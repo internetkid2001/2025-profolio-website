@@ -1,0 +1,8 @@
+git add .
+git commit -m "Describe what you changed"
+git push
+
+
+git add .
+git commit -m "add"
+git push

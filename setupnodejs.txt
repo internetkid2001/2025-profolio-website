@@ -1,0 +1,22 @@
+✅ Option 1: Install Node + npm Inside the Running Container (Temporary)
+If you just want a quick fix and don’t mind reinstalling on reboot:
+
+Step 1: Open Terminal in Code-Server
+You’re already in the shell:
+abc@eda650219b8e:/array/edit/CODE$
+
+Step 2: Install Node + npm (Debian/Ubuntu style)
+
+curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+apt-get install -y nodejs
+
+✅ After that:
+
+node -v
+npm -v
+
+You should see version numbers. if not 
+
+npm install
+npm start
+

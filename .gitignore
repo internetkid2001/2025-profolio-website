@@ -1,5 +1,28 @@
+# Node.js
 node_modules/
-public/
-src/assets/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# Build output
+build/
+dist/
+
+# Firebase
+.firebaserc
+firebase-debug.log
+firebase-debug.*
+
+# Environment variables
 .env
+.env.local
+
+# Mac system files
 .DS_Store
+
+# Other
+*.log
+repostuffsetup.txt
+src/assets
+public

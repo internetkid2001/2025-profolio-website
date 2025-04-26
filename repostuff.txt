@@ -1,0 +1,13 @@
+git remote add origin https://github.com/internetkid2001/2025-profolio-website.git
+git add .
+git commit -m "Initial commit with clean project structure"
+git push -u origin master
+
+
+git config --global user.name "internetkid2001"
+git config --global user.email "victorgrisson1@gmaill.com"
+
+git add .
+git commit -m "Initial commit with clean project structure"
+
+git push -u origin master

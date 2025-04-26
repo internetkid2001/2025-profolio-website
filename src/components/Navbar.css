@@ -1,0 +1,68 @@
+/* Sidebar (always vertical) */
+.vertical-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 160px;
+  background-color: black;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+/* Collapse on mobile */
+@media (max-width: 768px) {
+  .vertical-navbar {
+    transform: translateX(-100%);
+  }
+
+  .vertical-navbar.show {
+    transform: translateX(0);
+  }
+}
+
+/* Nav Links */
+.vertical-navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.vertical-navbar a:hover,
+.vertical-navbar a.active {
+  opacity: 0.6;
+}
+
+.nav-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+/* Hamburger (mobile only) */
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1100;
+  font-size: 2rem;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}

@@ -1,0 +1,45 @@
+.albums-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    padding-left: 180px; /* Add space for the nav bar (160px + buffer) */
+    background-color: black;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .album-card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  .album-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .album-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  

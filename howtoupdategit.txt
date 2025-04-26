@@ -4,5 +4,5 @@ git push
 
 
 git add .
-git commit -m "using bunny.net to host video files"
+git commit -m "firebase hosting updates"
 git push

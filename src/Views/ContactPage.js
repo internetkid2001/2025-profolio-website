@@ -6,7 +6,7 @@ const ContactPage = () => {
     <div className="contact-container">
       <video
         className="contact-video"
-        src="/videos/LUCKI TV (NEW EXPORT).mov"
+        src="/videos/LUCKI TV (NEW EXPORT).mp4"
         autoPlay
         loop
         muted

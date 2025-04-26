@@ -54,7 +54,7 @@ export default function LandingPage() {
     <div className={`landing-container ${isTransitioning ? "fade-out" : ""}`}>
       <video
         className="video-background"
-        src="/videos/WEBSITE FRONT PAGE.mov"
+        src="/videos/WEBSITE FRONT PAGE.mp4"
         autoPlay
         muted
         loop

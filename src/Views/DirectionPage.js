@@ -5,55 +5,55 @@ const videoData = [
   {
     title: 'ALWAYS SEEM TO MISS HER - ROSEVILE SUCKS',
     artist: '',
-    file: 'ALWAYS SEEMS TO MISS HER FINAL (2-16-25).mov',
+    file: 'ALWAYS SEEMS TO MISS HER FINAL (2-16-25).mp4',
     url: 'https://www.youtube.com/watch?v=dfb0SEQA3d8&ab_channel=rosevilesucks'
   },
   {
     title: 'VISTA HOOP MIXTAPE',
     artist: '',
-    file: 'VIS5A HOOP MIXTAPE (POSTED 3.24.25) v3.mov',
+    file: 'VIS5A HOOP MIXTAPE (POSTED 3.24.25) v3.mp4',
     url: 'https://www.youtube.com/watch?v=WB3q_Zlh1dM&ab_channel=VolunteersInServiceToArt'
   },
   {
     title: 'JAM OUT WITH VISTA',
     artist: '',
-    file: 'RED HOT CHILI PEPPERS TEE  VIDEO FINAL.mov',
+    file: 'RED HOT CHILI PEPPERS TEE  VIDEO FINAL.mp4',
     url: 'https://www.youtube.com/watch?v=v8laieFURhE&ab_channel=VolunteersInServiceToArt'
   },
   {
     title: 'VISTA IN THE MAKING',
     artist: '',
-    file: 'VISTA X PDL - MAKING VRO TEE .mov',
+    file: 'VISTA X PDL - MAKING VRO TEE .mp4',
     url: 'https://www.youtube.com/watch?v=_AuN7MFTWJU&ab_channel=VolunteersInServiceToArt'
   },
   {
     title: 'HONEY BABY LIVE STREAM',
     artist: 'CHASE USA',
-    file: 'CHASE PLATO 「HONEY BABY. I LOVE IT WHEN YOU CALL ME THAT !」(OFFICIAL LIVESTREAM).mov',
+    file: 'CHASE PLATO 「HONEY BABY. I LOVE IT WHEN YOU CALL ME THAT !」(OFFICIAL LIVESTREAM).mp4',
     url: 'https://youtu.be/qPw1towQMMg?si=YiEDC1zNBcsoaiWE'
   },
   {
     title: 'WISH YOU WHERE A GIRL',
     artist: 'CHASE USA',
-    file: 'WYWAG 9-9-24 (FINAL).mov',
+    file: 'WYWAG 9-9-24 (FINAL).mp4',
     url: 'https://youtu.be/0oU-fI6ws4g?si=eqrQTsIhZHWuB4sG'
   },
   {
     title: 'KILL YOUR FRIENDS',
     artist: 'CHASE USA',
-    file: 'KYF FINAL.mov',
+    file: 'KYF FINAL.mp4',
     url: 'https://youtu.be/vBufSbB6_wI?si=x4m4ymBTpp5YwVEU'
   },
   {
     title: 'CUP KISSER',
     artist: 'CHASE USA',
-    file: 'CUP KISSER FINAL (YT VERSION).mov',
+    file: 'CUP KISSER FINAL (YT VERSION).mp4',
     url: 'https://youtu.be/ciTbtj-onek?si=8gQfhdYXGDnPT5Yb'
   },
   {
     title: 'SWIPE STORY',
     artist: 'CHASE USA',
-    file: 'SWIPE STORY UPLOAD READY 6-14-24.mov',
+    file: 'SWIPE STORY UPLOAD READY 6-14-24.mp4',
     url: 'https://youtu.be/QL0rK0n5D4g?si=w--9JHaH3UotJkvS'
   },
   {
@@ -65,31 +65,31 @@ const videoData = [
   {
     title: 'SET YOU FREE',
     artist: 'CHASE USA',
-    file: 'SET YOU FREE FINAL  10-20-22.mov',
+    file: 'SET YOU FREE FINAL  10-20-22.mp4v',
     url: 'https://youtu.be/Bhko6rRoqDU?si=741m8YyszHARnPYo'
   },
   {
     title: 'STRANGER THAN FICTION',
     artist: 'CHASE USA',
-    file: 'PLEASE FOR THE LOVE OF GOD LETS BE DONE.mov',
+    file: 'PLEASE FOR THE LOVE OF GOD LETS BE DONE.mp4',
     url: 'https://youtu.be/W-jrl3PzJw8?si=nl5voqw2hzsP66Kj'
   },
   {
     title: 'ICE CREAM MAN',
     artist: 'CHASE USA',
-    file: 'ICE CREAM MAN FINAL FINAL.mov',
+    file: 'ICE CREAM MAN FINAL FINAL.mp4',
     url: 'https://youtu.be/XsWXgK1okwE?si=Ek7cWD5DcZV03Pny'
   },
   {
     title: 'HOLD',
     artist: 'CALEB PETERS',
-    file: 'HOLD FINAL 1.mov',
+    file: 'HOLD FINAL 1.mp4',
     url: '' // No URL provided
   },
   {
     title: 'STRAWBERRY BLONDE',
     artist: 'JACOB SIGMAN',
-    file: 'Final v2 (Color).mov',
+    file: 'Final v2 (Color).mp4',
     url: 'https://youtu.be/uGTkyQSYziQ'
   }
 ];

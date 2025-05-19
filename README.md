@@ -113,5 +113,14 @@ This project is open-source and free to use. Attribution appreciated!
 
 ---
 
+## 🔹 Deployment
+
+This project is automatically deployed to Firebase Hosting whenever a change is pushed to the `main` branch, using GitHub Actions.
+
+To configure automatic deployment:
+- Firebase CLI was used to initialize GitHub integration:
+  ```bash
+  firebase init hosting:github
+
 > Designed and developed by **Victor Grisson**.
 

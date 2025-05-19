@@ -24,14 +24,11 @@ const albums = [
     thumbnail: "/photos/PROJECTS/JUST DON NCAA (2024)/4-7-25website-8054.jpg",
     path: "just-don-ncaa-2024",
   },
-  
   {
     name: "ICE CREAM MAN (2022)",
     thumbnail: "/photos/PROJECTS/ICE CREAM MAN (2022)/2.jpg",
     path: "ice-cream-man-2022",
   },
-
-
   {
     name: "SET YOU FREE (2022)",
     thumbnail: "/photos/PROJECTS/SET YOU FREE (2022)/2.jpg",
@@ -45,10 +42,24 @@ const albums = [
 ];
 
 export default function PhotoProjectsPage() {
+  const handleAlbumClick = (albumName) => {
+    if (window.gtag) {
+      window.gtag("event", "click", {
+        event_category: "Photo Album",
+        event_label: `Photo Album Click – ${albumName}`,
+      });
+    }
+  };
+
   return (
     <div className="albums-container">
       {albums.map((album) => (
-        <Link key={album.name} to={`/photo-projects/${album.path}`} className="album-card">
+        <Link
+          key={album.name}
+          to={`/photo-projects/${album.path}`}
+          className="album-card"
+          onClick={() => handleAlbumClick(album.name)}
+        >
           <img src={album.thumbnail} alt={album.name} />
           <div className="overlay">{album.name}</div>
         </Link>

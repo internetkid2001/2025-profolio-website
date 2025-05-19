@@ -84,7 +84,7 @@ const videoData = [
     title: 'HOLD',
     artist: 'CALEB PETERS',
     file: 'HOLD FINAL 1.mp4',
-    url: '' // No URL
+    url: ''
   },
   {
     title: 'STRAWBERRY BLONDE',
@@ -95,6 +95,16 @@ const videoData = [
 ];
 
 const MusicVideos = () => {
+  const handleVideoClick = (title, artist) => {
+    const label = artist ? `${title} - ${artist}` : title;
+    if (window.gtag) {
+      window.gtag('event', 'click', {
+        event_category: 'Video',
+        event_label: `Clicked – ${label}`,
+      });
+    }
+  };
+
   return (
     <div className="music-videos-page">
       {videoData.map(({ title, artist, file, url }, index) => {
@@ -102,7 +112,12 @@ const MusicVideos = () => {
         const displayText = artist ? `${title} - ${artist}` : title;
         return (
           <div className="video-block" key={index}>
-            <a href={url || '#'} target="_blank" rel="noopener noreferrer">
+            <a
+              href={url || '#'}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => handleVideoClick(title, artist)}
+            >
               <div className="video-wrapper">
                 <video
                   src={bunnyLink}
